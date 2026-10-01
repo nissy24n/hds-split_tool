@@ -1,0 +1,14 @@
+{
+  "name": "hds-split",
+  "version": "0.0.1",
+  "description": "X68000 SCSI HDD イメージ (.hds) をパーティション単位の .hds に分割する",
+  "type": "module",
+  "bin": { "hds-split": "./hds-split.mjs" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["X68000 Z"],
+  "author": "nobu24",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": { "node": ">=14" }
+}
